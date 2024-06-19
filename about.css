@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "League Spartan", sans-serif;
+}
+body{
+
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,1)), url(/images/about/bird-1.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.all-about{
+    width:max-content;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3e6f3f0;
+  padding: 8px 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position:fixed;
+  opacity:0.9;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-list-nav ul {
+  display: flex;
+}
+.header-list-nav ul li {
+  list-style-type: none;
+  padding: 0 20px;
+  position: relative;
+}
+.header-list-nav ul a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.2s ease-in-out;
+}
+.header-list-nav ul a:hover
+ {
+  color: #088178;
+  content: "";
+}
+.header-list-icon a {
+  color: #1a1a1a;
+  padding-left: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.header-list-nav ul li a:hover::after
+ {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.header-logo img{
+  width: 80px;
+  height: 80px;
+  border-radius: 90px;
+}
+
+
+
+.main-txt {
+  position: absolute;
+  top: 40%;
+  left: 26%;
+  color: whitesmoke;  
+}
+.main-txt h2{
+    position: relative;
+    background: linear-gradient(to top, rgb(10, 162, 131), rgb(255, 255, 255));
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+    font-size:75px;
+    margin-bottom: 5px;
+}
+.main-txt h1{
+font-size: 85px;
+background: linear-gradient(to top, rgb(10, 147, 130), rgb(255, 255, 255));
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
+.footer h2{
+    position:absolute;
+    color: whitesmoke;
+    font-size: 16px;
+ bottom: 5%;
+ left: 42%;
+}
+.footer span{
+    color: #088178;
+}
+.socials {
+    position:absolute;
+    top: 75%;
+   left: 40%;
+   margin-top: 50px;
+}
+.socials a{
+    margin-right: 30px;
+    color: whitesmoke;
+}
+.socials a:hover{
+    color:#088178;
+    transition: 0.3s ease-in-out;
+
+}
